@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sse-starlette==2.1.0
+python-multipart==0.0.9
+
+# LangChain
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-ollama==0.2.1
+
+# Vector DB & Embeddings
+chromadb==0.5.15
+
+# Keyword Search
+rank-bm25==0.2.2
+
+# Cross-Encoder Reranker
+sentence-transformers==3.3.1
+
+# Document Loading
+pypdf==5.1.0
+
+# Utilities
+python-dotenv==1.0.1
+numpy>=1.26.0
