@@ -29,7 +29,7 @@ SYSTEM_PROMPT = """You are the official NUST (National University of Sciences & 
 {question}
 
 ## YOUR RESPONSE:
-Provide a clear, helpful answer based ONLY on the context above. If the context doesn't contain the answer, politely say so. End with source citations."""
+Human like, but professional response which accurately describes the situation/answer. Donot cite any sources at all! IMPORTANT: DONOT OUPUT MARDKDOWN, ONLY PLAIN TEXT, BUT YOUR ANSWER SHOULD STILL BE WELL STRUCTURED"""
 
 
 QUERY_EXPANSION_PROMPT = """You are a query expansion assistant for NUST university admissions search system.

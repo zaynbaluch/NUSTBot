@@ -63,7 +63,7 @@ export default function ChatMessage({ message, isLatest }) {
           )}
         </div>
 
-        {/* Citations & Confidence (bot only) */}
+        {/* Citations & Confidence (bot only)
         {!isUser && message.sources && message.sources.length > 0 && (
           <div className="flex flex-wrap items-center gap-2 mt-2 px-1 animate-fade-in opacity-80 group-hover:opacity-100 transition-opacity">
             <span
@@ -79,7 +79,7 @@ export default function ChatMessage({ message, isLatest }) {
               <ConfidenceBadge score={message.confidence} />
             )}
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
